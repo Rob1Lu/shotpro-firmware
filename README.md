@@ -85,8 +85,13 @@ accès à Internet avec l'app ouverte.
 ## Retirer une version
 
 Supprimer la release, ou la repasser en pre-release. L'application se rabat sur
-la release publiée la plus récente qui contient le fichier du modèle. Une
-caméra déjà mise à jour n'est **pas** rétrogradée.
+la release publiée la plus récente qui contient le fichier du modèle.
+
+> ⚠️ L'application propose la mise à jour dès que la version de la caméra est
+> **différente** du tag de cette release. Les caméras qui avaient déjà installé
+> la version retirée se verraient donc proposer l'ancienne : c'est un retour
+> en arrière. Pour corriger un firmware défectueux, publiez plutôt une version
+> corrigée **plus récente**.
 
 ## Règles à respecter
 
